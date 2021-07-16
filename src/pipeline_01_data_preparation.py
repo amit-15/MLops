@@ -13,5 +13,5 @@ if __name__== "__main__":
     args.add_argument("--datasource", default=None)
 
     parsed_args= args.parse_args()
-    print(parsed_args.config,parsed_args.datasource)
-    #print(parsed_args.config,parsed_args.config)
+    print(parsed_args.config, parsed_args.datasource)
+    
